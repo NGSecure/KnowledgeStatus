@@ -1,8 +1,8 @@
 # 本组抓取统计（Knowledge 域）
 
-更新时间：2026-10-16 15:35（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
+更新时间：2026-10-16 16:38（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
 
-**合计：67 个数据源，175,864 个文件，169.5G；已解析 162,767 篇文档（含全文 137,330）**
+**合计：67 个数据源，177,224 个文件，170.0G；已解析 163,378 篇文档（含全文 139,619）**
 
 ## ① 通用漏洞数据库 共 1 源（已下载：0B）
 
@@ -41,11 +41,11 @@
 | Google API Design / Slsa | slsa.dev | 完成 (4.83M) | Git 快照（文档文件） | 175 个文件 · 完成度 100.0% · 已解析 107 篇（含全文 107） |
 | CIS Benchmarks | www.cisecurity.org/cis-benchmarks | 完成（部分受限） (1.75M) | HTML | 1 个文件 · 完成度 100.0% · 已解析 1 篇（含全文 0） · 未获取：需注册并登录 CIS WorkBench 账号 |
 
-## ⑤ CTF与攻防社区 共 15 源（已下载：6.02G）
+## ⑤ CTF与攻防社区 共 15 源（已下载：6.04G）
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
-| CTFtime | ctftime.org | 进行中 (1009.8M) | HTML / Markdown / JSON | 29,935 个文件 · 完成度 90.5% · 已解析 22,948 篇（含全文 19,687） |
+| CTFtime | ctftime.org | 进行中 (1023.7M) | HTML / Markdown / JSON | 30,369 个文件 · 完成度 90.5% · 已解析 23,507 篇（含全文 20,131） |
 | Hack The Box (HTB) | www.hackthebox.com | 完成（部分受限） (312.7M) | HTML / Git 快照（文档文件） / XML | 1,718 个文件 · 完成度 99.7% · 已解析 1,215 篇（含全文 1,210） · 未获取：需 VIP 会员 |
 | PortSwigger Web Security Academy | portswigger.net/web-security | 完成 (63.9M) | HTML / XML / PDF | 434 个文件 · 完成度 100.0% · 已解析 433 篇（含全文 433） |
 | Exploit Database (Exploit-DB) | www.exploit-db.com | 完成* (2.16G) | Git 快照（文档文件） | 1,638 个文件 · 与另一类目同一份数据（复用，不重复计入合计） · 完成度 100.0% · 已解析 1,635 篇（含全文 0） |
@@ -66,7 +66,7 @@
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
 | Exploit-DB | www.exploit-db.com | 完成 (2.16G) | Git 快照（文档文件） | 1,638 个文件 · 完成度 100.0% · 已解析 1,635 篇（含全文 1,631） |
-| Packet Storm | packetstormsecurity.com | 进行中 (682K) | HTML / PDF / TXT | 32 个文件 · 完成度 8.4% · 已解析 27 篇（含全文 27） |
+| Packet Storm | packetstormsecurity.com | 进行中 (805K) | HTML / PDF / TXT | 39 个文件 · 完成度 10.2% · 已解析 36 篇（含全文 36） |
 | watchTowr Labs | labs.watchtowr.com | 完成（部分受限） (6.61M) | HTML / XML / TXT | 126 个文件 · 完成度 99.2% · 已解析 107 篇（含全文 107） |
 | Assetnote The Split | www.assetnote.io/resources | 完成 (66.4M) | HTML / XML | 128 个文件 · 完成度 100.0% · 已解析 126 篇（含全文 126） |
 | Google Project Zero GitHub | github.com/googleprojectzero/0days-in-the-wild | 完成 (630K) | Git 快照（文档文件） | 85 个文件 · 完成度 100.0% · 已解析 70 篇（含全文 70） |
@@ -94,7 +94,7 @@
 
 本组未抓取该类（不属于 Knowledge 域）。
 
-## ⑨ 安全会议机构报告 共 14 源（已下载：162.4G）
+## ⑨ 安全会议机构报告 共 14 源（已下载：162.9G）
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
@@ -103,7 +103,7 @@
 | CCS | www.sigsac.org/ccs | 进行中 (410.6M) | HTML / PDF / DOCX | 614 个文件 · 完成度 95.0% · 已解析 478 篇（含全文 475） |
 | NDSS | www.ndss-symposium.org | 完成（部分受限） (7.84G) | PDF / HTML / TXT | 7,353 个文件 · 完成度 99.9% · 已解析 4,902 篇（含全文 4,699） |
 | arXiv (cs.CR) | arxiv.org/list/cs.CR/recent | 完成（部分受限） (100.8G) | PDF / LaTeX 源码包 / XML | 53,761 个文件 · 完成度 99.3% · 每篇一种全文：有 LaTeX 取源码包，否则 PDF · 已解析 53,358 篇（含全文 52,948） · 未获取：交给专业团队处理，原因为LaTeX抓取限速（60秒/个）：export.arxi |
-| Cryptology ePrint Archive | eprint.iacr.org | 进行中 (3.20G) | PDF / XML | 7,738 个文件 · 论文记录来自 OAI-PMH 元数据；全文为开放获取副本 · 已解析 27,477 篇（含全文 6,512） |
+| Cryptology ePrint Archive | eprint.iacr.org | 进行中 (3.72G) | PDF / XML | 8,657 个文件 · 论文记录来自 OAI-PMH 元数据；全文为开放获取副本 · 已解析 27,520 篇（含全文 8,348） |
 | Black Hat Briefings | www.blackhat.com/html/archives.html | 进行中 (95.2M) | PDF / HTML / PPTX | 14 个文件 · 完成度 0.3% · 已解析 14 篇（含全文 10） |
 | DEF CON | defcon.org/html/defcon-archive | 完成（部分受限） (32.3G) | TXT / SRT 字幕 / PDF | 21,915 个文件 · 完成度 99.0% · 已解析 8,901 篇（含全文 8,686） |
 | CanSecWest / Pwn2Own | cansecwest.com | 完成（部分受限） (256.5M) | HTML / PDF | 334 个文件 · 完成度 99.7% · 已解析 334 篇（含全文 334） · 未获取：SlideShare 需登录才能下载原文件 |
