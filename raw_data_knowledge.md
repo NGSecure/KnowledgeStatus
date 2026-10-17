@@ -1,8 +1,8 @@
 # 本组抓取统计（Knowledge 域）
 
-更新时间：2026-10-17 11:28（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
+更新时间：2026-10-17 12:11（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
 
-**合计：67 个数据源，198,993 个文件，192.2G；已解析 177,642 篇文档（含全文 158,791）**
+**合计：67 个数据源，199,262 个文件，192.3G；已解析 177,642 篇文档（含全文 158,791）**
 
 ## ① 通用漏洞数据库 共 1 源（已下载：16.5M）
 
@@ -41,16 +41,16 @@
 | Google API Design / Slsa（knowledge only） | slsa.dev | 完成 (4.83M) | Git 快照（文档文件） | 175 个文件 · 完成度 100.0% · 已解析 107 篇（含全文 107） |
 | CIS Benchmarks（knowledge only） | www.cisecurity.org/cis-benchmarks | 完成（部分受限） (182.8M) | PDF / HTML | 136 个文件 · 完成度 99.3% · 已解析 136 篇（含全文 0） · 未获取：需注册并登录 CIS WorkBench 账号 |
 
-## ⑤ CTF与攻防社区 共 15 源（已下载：7.11G）
+## ⑤ CTF与攻防社区 共 15 源（已下载：7.12G）
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
-| CTFtime（knowledge only） | ctftime.org | 进行中 (1.18G) | HTML / Markdown / JSON | 35,885 个文件 · 完成度 91.5% · 已解析 27,111 篇（含全文 23,082） |
+| CTFtime（knowledge only） | ctftime.org | 进行中 (1.18G) | HTML / Markdown / JSON | 35,935 个文件 · 完成度 91.6% · 已解析 27,111 篇（含全文 23,082） |
 | Hack The Box (HTB)（knowledge only） | www.hackthebox.com | 完成（部分受限） (378.6M) | HTML / Git 快照（文档文件） / XML | 2,287 个文件 · 完成度 99.8% · 已解析 1,784 篇（含全文 1,779） · 未获取：需 VIP 会员 |
 | PortSwigger Web Security Academy（knowledge only） | portswigger.net/web-security | 完成 (63.9M) | HTML / XML / PDF | 434 个文件 · 完成度 100.0% · 已解析 433 篇（含全文 433） |
 | Exploit Database (Exploit-DB)（knowledge only） | www.exploit-db.com | 完成* (2.16G) | Git 快照（文档文件） | 1,638 个文件 · 与另一类目同一份数据（复用，不重复计入合计） · 完成度 100.0% · 已解析 1,635 篇（含全文 0） |
 | Packet Storm（knowledge only） | packetstormsecurity.com | 进行中 | — | 完成度 0% |
-| 先知社区 (XianZhi)（knowledge only） | xz.aliyun.com | 进行中 (26.9M) | HTML | 557 个文件 · 完成度 6.7% · 已解析 524 篇（含全文 507） |
+| 先知社区 (XianZhi)（knowledge only） | xz.aliyun.com | 进行中 (30.2M) | HTML | 628 个文件 · 完成度 7.6% · 已解析 524 篇（含全文 507） |
 | 安全客 (AnQuanKe)（knowledge only） | www.anquanke.com | 完成（部分受限） (2.13G) | HTML / JSON / XML | 24,260 个文件 · 完成度 98.4% · 已解析 24,173 篇（含全文 24,000） |
 | Orange Tsai Blog（knowledge only） | blog.orange.tw | 完成 (2.06M) | HTML / XML | 147 个文件 · 完成度 100.0% · 已解析 103 篇（含全文 103） |
 | Phrack Magazine（knowledge only） | phrack.org | 完成 (95.8M) | HTML / LaTeX 源码包 | 1,121 个文件 · 完成度 100.0% · 已解析 1,046 篇（含全文 1,046） |
@@ -59,14 +59,14 @@
 | 奇安信 0patch / 补天漏洞响应平台（knowledge only） | 微信搜索：奇安信 CERT   / 补天漏洞响应平台 | 完成 (33.0M) | HTML | 161 个文件 · 完成度 100.0% · 已解析 161 篇（含全文 161） |
 | 微步在线研究响应中心（knowledge only） | 微信搜索：微步在线研究响应中心 | 受限未获取 | — | 完成度 0% · 未获取：微信公众号没有合法的程序化接口 |
 | 安全世界 / 绿盟科技安全研究（knowledge only） | 微信搜索：绿盟科技安全能力中心 | 完成（部分受限） (753.9M) | HTML / PDF / XML | 3,660 个文件 · 完成度 99.5% · 已解析 3,640 篇（含全文 3,637） · 未获取：微信公众号没有合法的程序化接口 |
-| 红队攻防 / 各种技术实验室（knowledge only） | 微信搜索：奇安信攻防社区   或相关团队名 | 进行中 (32.9M) | HTML | 656 个文件 · 完成度 41.7% · 已解析 642 篇（含全文 642） |
+| 红队攻防 / 各种技术实验室（knowledge only） | 微信搜索：奇安信攻防社区   或相关团队名 | 进行中 (36.0M) | HTML | 721 个文件 · 完成度 46.2% · 已解析 642 篇（含全文 642） |
 
 ## ⑥ 漏洞复现与漏洞利用 共 5 源（已下载：2.24G）
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
 | Exploit-DB（knowledge only） | www.exploit-db.com | 完成 (2.16G) | Git 快照（文档文件） | 1,638 个文件 · 完成度 100.0% · 已解析 1,635 篇（含全文 1,631） |
-| Packet Storm（knowledge only） | packetstormsecurity.com | 进行中 (8.51M) | HTML / TXT / PDF | 472 个文件 · 完成度 76.9% · 已解析 467 篇（含全文 466） |
+| Packet Storm（knowledge only） | packetstormsecurity.com | 进行中 (8.61M) | HTML / TXT / PDF | 496 个文件 · 完成度 80.8% · 已解析 467 篇（含全文 466） |
 | watchTowr Labs（knowledge only） | labs.watchtowr.com | 完成（部分受限） (6.61M) | HTML / XML / TXT | 126 个文件 · 完成度 99.2% · 已解析 107 篇（含全文 107） |
 | Assetnote The Split（knowledge only） | www.assetnote.io/resources | 完成 (66.4M) | HTML / XML | 128 个文件 · 完成度 100.0% · 已解析 126 篇（含全文 126） |
 | Google Project Zero GitHub（knowledge only） | github.com/googleprojectzero/0days-in-the-wild | 完成 (630K) | Git 快照（文档文件） | 85 个文件 · 完成度 100.0% · 已解析 70 篇（含全文 70） |
@@ -94,7 +94,7 @@
 
 本组未抓取该类（不属于 Knowledge 域）。
 
-## ⑨ 安全会议机构报告 共 14 源（已下载：183.8G）
+## ⑨ 安全会议机构报告 共 14 源（已下载：183.9G）
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
@@ -103,7 +103,7 @@
 | CCS（knowledge only） | www.sigsac.org/ccs | 进行中 (411.1M) | HTML / PDF / DOCX | 615 个文件 · 完成度 95.2% · 已解析 479 篇（含全文 476） |
 | NDSS（knowledge only） | www.ndss-symposium.org | 完成（部分受限） (7.84G) | PDF / HTML / TXT | 7,353 个文件 · 完成度 99.9% · 已解析 4,902 篇（含全文 4,699） |
 | arXiv (cs.CR)（knowledge only） | arxiv.org/list/cs.CR/recent | 完成（部分受限） (100.8G) | PDF / LaTeX 源码包 / XML | 53,758 个文件 · 完成度 99.3% · 每篇一种全文：有 LaTeX 取源码包，否则 PDF · 已解析 53,358 篇（含全文 52,945） · 未获取：交给专业团队处理，原因为LaTeX抓取限速（60秒/个）：export.arxi |
-| Cryptology ePrint Archive（knowledge only） | eprint.iacr.org | 进行中 (7.47G) | PDF / XML | 14,280 个文件 · 论文记录来自 OAI-PMH 元数据；全文为开放获取副本 · 已解析 27,602 篇（含全文 14,175） |
+| Cryptology ePrint Archive（knowledge only） | eprint.iacr.org | 进行中 (7.50G) | PDF / XML | 14,339 个文件 · 论文记录来自 OAI-PMH 元数据；全文为开放获取副本 · 已解析 27,602 篇（含全文 14,175） |
 | Black Hat Briefings（knowledge only） | www.blackhat.com/html/archives.html | 完成（部分受限） (17.3G) | PDF / PPT / HTML | 4,466 个文件 · 完成度 96.1% · 已解析 4,459 篇（含全文 4,426） · 未获取：Cloudflare “Attention Required” 拦截（403）， |
 | DEF CON（knowledge only） | defcon.org/html/defcon-archive | 完成（部分受限） (32.3G) | TXT / SRT 字幕 / PDF | 21,915 个文件 · 完成度 99.0% · 已解析 8,901 篇（含全文 8,686） |
 | CanSecWest / Pwn2Own（knowledge only） | cansecwest.com | 完成（部分受限） (256.5M) | HTML / PDF | 334 个文件 · 完成度 99.7% · 已解析 334 篇（含全文 334） · 未获取：SlideShare 需登录才能下载原文件 |
