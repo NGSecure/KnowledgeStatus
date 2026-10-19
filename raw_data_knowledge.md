@@ -1,8 +1,10 @@
 # 本组抓取统计（Knowledge 域）
 
-更新时间：2026-10-19 12:01（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
+更新时间：2026-10-19 14:20（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
 
-**合计：68 个数据源，233,317 个文件，202.6G；已解析 196,068 篇文档（含全文 184,421）**
+**合计：68 个数据源，234,346 个文件，203.2G；已解析 196,438 篇文档（含全文 185,309）**
+
+**另：学术安全数据集本身（dataset，不计入上面的 Knowledge 合计）：10 个数据集，6,285 个文件，2.53G**
 
 ## ① 通用漏洞数据库 共 1 源（已下载：16.5M）
 
@@ -41,11 +43,11 @@
 | Google API Design / Slsa（knowledge only） | slsa.dev | 完成 (4.83M) | Git 快照（文档文件） | 175 个文件 · 完成度 100.0% · 已解析 107 篇（含全文 107） |
 | CIS Benchmarks（knowledge only） | www.cisecurity.org/cis-benchmarks | 完成（部分受限） (182.8M) | PDF / HTML | 136 个文件 · 完成度 99.3% · 已解析 136 篇（含全文 0） · 未获取：需注册并登录 CIS WorkBench 账号 |
 
-## ⑤ CTF与攻防社区 共 15 源（已下载：7.85G）
+## ⑤ CTF与攻防社区 共 15 源（已下载：7.86G）
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
-| CTFtime（knowledge only） | ctftime.org | 进行中 (1.62G) | HTML / Markdown / JSON | 51,342 个文件 · 完成度 90.3% · 已解析 37,408 篇（含全文 31,754） |
+| CTFtime（knowledge only） | ctftime.org | 进行中 (1.63G) | HTML / Markdown / JSON | 51,813 个文件 · 完成度 90.2% · 已解析 37,764 篇（含全文 32,045） |
 | Hack The Box (HTB)（knowledge only） | www.hackthebox.com | 完成（部分受限） (378.6M) | HTML / Git 快照（文档文件） / XML | 2,287 个文件 · 完成度 99.8% · 已解析 1,784 篇（含全文 1,779） · 未获取：需 VIP 会员 |
 | PortSwigger Web Security Academy（knowledge only） | portswigger.net/web-security | 完成 (63.9M) | HTML / XML / PDF | 434 个文件 · 完成度 100.0% · 已解析 433 篇（含全文 433） |
 | Exploit Database (Exploit-DB)（knowledge only） | www.exploit-db.com | 完成* (2.16G) | Git 快照（文档文件） | 1,638 个文件 · 与另一类目同一份数据（复用，不重复计入合计） · 完成度 100.0% · 已解析 1,635 篇（含全文 0） |
@@ -625,11 +627,32 @@
 
 </details>
 
+### ⑦ 学术安全数据集：数据集本身（dataset）
+
+2026-10-19 新任务：除论文（Knowledge）外，本类数据集本身也由本组抓取，统计单列、不计入上方 Knowledge 合计。规则：不设大小上限；可执行文件与样本不落盘（按扩展名、路径、文件头识别，只登记）；压缩包内的可执行成员去掉后重新打包，加密或无法检查的压缩包整包跳过。数据存放于 Data_Root/dataset/，每个项目的 _records/ 记录来源、校验和、许可与跳过原因。
+
+| 数据源 | 链接 | 状态 | 格式 | 备注 |
+|---|---|---|---|---|
+| SEvenLLM-Instruct（dataset） | https://huggingface.co/datasets/Multilingual-Multimodal-NLP/SEVENLLM-Dataset | 进行中 (2.62M) | (无) / MD / JSONL | 3 个文件 · 上游共 4 个文件、181.4M · 许可：apache-2.0 |
+| CyberMetric（dataset） | https://huggingface.co/datasets/tihanyin/CyberMetric | 完成 (5.47M) | JSON / (无) / MD | 6 个文件 · 上游共 6 个文件、5.47M · 许可：apache-2.0 |
+| SecBench（dataset） | https://huggingface.co/datasets/SEC-bench/SEC-bench<br>https://zenodo.org/records/14575303 | 完成 (4.90M) | JSONL / (无) / MD | 7 个文件 · 上游共 7 个文件、4.90M · 许可：mit；cc-by-4.0 · SEC-bench（链接所指，arXiv 2506.11791）；SecBench（名称所指，arXiv 2412.20787） |
+| CyberSecEval 2（dataset） | https://github.com/meta-llama/PurpleLlama | 完成 (68.8M) | JSON / CPP / PY | 545 个文件 · 上游共 545 个文件、68.8M · 仓库由 facebookresearch/PurpleLlama 迁至 meta-llama/PurpleLlama；只取 CybersecurityBenchmarks 目录 |
+| CTI-Bench（dataset） | https://huggingface.co/datasets/AI4Sec/cti-bench | 完成 (7.27M) | TSV / (无) / MD | 8 个文件 · 上游共 8 个文件、7.27M · 许可：cc-by-nc-sa-4.0 |
+| VulEval（dataset） | — | 不适用 | — | 论文未给出数据集下载地址，Hugging Face 与 GitHub 均未找到 |
+| CodeSecEval（dataset） | https://huggingface.co/datasets/JasonWang1/CodeSecEval | 完成 (1.20M) | JSONL / MD / IPYNB | 4 个文件 · 上游共 4 个文件、1.20M |
+| MalBench（dataset） | https://github.com/youkergav/Malbench | 完成 (1.27M) | PY / HTML / YML | 44 个文件 · 上游共 44 个文件、1.27M · 许可：见仓库 LICENSE · MalBench 是杀毒软件测试工具（README 声明不含任何恶意样本，样本由使用者自备）；保存仓库快照（代码与文档） |
+| CyberGym（dataset） | https://huggingface.co/datasets/sunblaze-ucb/cybergym | 进行中 (2.43G) | TXT / DIFF / TAR.GZ | 5,630 个文件 · 上游共 7,538 个文件、220.2G · 去掉可执行成员后重新打包 404 个 · 约 220 GB：1507 个任务，每个含漏洞说明、补丁与修复前后的源码包 |
+| TrajCoder（dataset） | — | 不适用 | — | TraceCoder 为调试框架，未发布数据集 |
+| SafeToolBench（dataset） | https://github.com/BITHLP/SafeToolBench | 完成 (9.07M) | PY / JSON / MD | 38 个文件 · 上游共 38 个文件、9.07M · 许可：见仓库 LICENSE |
+| RedTeamBench（dataset） | https://huggingface.co/datasets/Fujitsu/agentic-rag-redteam-bench | 受限未获取 | — | 0 个文件 · 上游共 4,549 个文件、372.7M · 受限 4,544 个（需在 Hugging Face 页面同意条款） · 失败 5 个 · 许可：cc-by-4.0 · 受限数据集（gated=auto）：需账号在页面上同意条款后才能下载；gated=auto |
+| LLM4CyberData（dataset） | — | 不适用 | — | 资源清单（Awesome 列表），本身不是数据集 |
+| SecCoT (Security Chain-of-Thought)（dataset） | — | 不适用 | — | 论文全文付费，未找到数据集公开下载地址 |
+
 ## ⑧ 源代码/二进制 共 0 源（已下载：0B）
 
 本组未抓取该类（不属于 Knowledge 域）。
 
-## ⑨ 安全会议机构报告 共 14 源（已下载：193.5G）
+## ⑨ 安全会议机构报告 共 14 源（已下载：194.1G）
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
@@ -638,7 +661,7 @@
 | CCS（knowledge only） | www.sigsac.org/ccs | 进行中 (411.1M) | HTML / PDF / DOCX | 615 个文件 · 完成度 95.2% · 已解析 479 篇（含全文 476） |
 | NDSS（knowledge only） | www.ndss-symposium.org | 完成（部分受限） (7.84G) | PDF / HTML / TXT | 7,353 个文件 · 完成度 99.9% · 已解析 4,902 篇（含全文 4,699） |
 | arXiv (cs.CR)（knowledge only） | arxiv.org/list/cs.CR/recent | 完成（部分受限） (100.8G) | PDF / LaTeX 源码包 / XML | 53,758 个文件 · 完成度 99.3% · 每篇一种全文：有 LaTeX 取源码包，否则 PDF · 已解析 53,358 篇（含全文 52,945） · 未获取：交给专业团队处理，原因为LaTeX抓取限速（60秒/个）：export.arxi |
-| Cryptology ePrint Archive（knowledge only） | eprint.iacr.org | 进行中 (17.1G) | PDF / XML | 25,013 个文件 · 论文记录来自 OAI-PMH 元数据；全文为开放获取副本 · 已解析 27,788 篇（含全文 24,678） |
+| Cryptology ePrint Archive（knowledge only） | eprint.iacr.org | 进行中 (17.7G) | PDF / XML | 25,571 个文件 · 论文记录来自 OAI-PMH 元数据；全文为开放获取副本 · 已解析 27,802 篇（含全文 25,275） |
 | Black Hat Briefings（knowledge only） | www.blackhat.com/html/archives.html | 完成（部分受限） (17.3G) | PDF / PPT / HTML | 4,466 个文件 · 完成度 96.1% · 已解析 4,459 篇（含全文 4,426） · 未获取：Cloudflare “Attention Required” 拦截（403）， |
 | DEF CON（knowledge only） | defcon.org/html/defcon-archive | 完成（部分受限） (32.3G) | TXT / SRT 字幕 / PDF | 21,915 个文件 · 完成度 99.0% · 已解析 8,901 篇（含全文 8,686） |
 | CanSecWest / Pwn2Own（knowledge only） | cansecwest.com | 完成（部分受限） (256.5M) | HTML / PDF | 334 个文件 · 完成度 99.7% · 已解析 334 篇（含全文 334） · 未获取：SlideShare 需登录才能下载原文件 |
