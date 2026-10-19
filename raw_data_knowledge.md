@@ -1,10 +1,10 @@
 # 本组抓取统计（Knowledge 域）
 
-更新时间：2026-10-19 18:09（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
+更新时间：2026-10-19 19:20（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
 
-**合计：68 个数据源，236,596 个文件，204.4G；已解析 197,079 篇文档（含全文 187,302）**
+**合计：68 个数据源，236,720 个文件，204.4G；已解析 197,279 篇文档（含全文 187,460）**
 
-**另：学术安全数据集本身（dataset，不计入上面的 Knowledge 合计）：11 个数据集，7,718 个文件，47.3G**
+**另：学术安全数据集本身（dataset，不计入上面的 Knowledge 合计）：11 个数据集，7,798 个文件，52.8G**
 
 ## ① 通用漏洞数据库 共 1 源（已下载：16.5M）
 
@@ -47,12 +47,12 @@
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
-| CTFtime（knowledge only） | ctftime.org | 进行中 (1.66G) | HTML / Markdown / JSON | 52,807 个文件 · 完成度 90.2% · 已解析 38,385 篇（含全文 32,629） |
+| CTFtime（knowledge only） | ctftime.org | 进行中 (1.66G) | HTML / Markdown / JSON | 52,905 个文件 · 完成度 90.2% · 已解析 38,522 篇（含全文 32,725） |
 | Hack The Box (HTB)（knowledge only） | www.hackthebox.com | 完成（部分受限） (378.6M) | HTML / Git 快照（文档文件） / XML | 2,287 个文件 · 完成度 99.8% · 已解析 1,784 篇（含全文 1,779） · 未获取：需 VIP 会员 |
 | PortSwigger Web Security Academy（knowledge only） | portswigger.net/web-security | 完成 (63.9M) | HTML / XML / PDF | 434 个文件 · 完成度 100.0% · 已解析 433 篇（含全文 433） |
 | Exploit Database (Exploit-DB)（knowledge only） | www.exploit-db.com | 完成* (2.16G) | Git 快照（文档文件） | 1,638 个文件 · 与另一类目同一份数据（复用，不重复计入合计） · 完成度 100.0% · 已解析 1,635 篇（含全文 0） |
 | Packet Storm（knowledge only） | packetstormsecurity.com | 完成* (8.61M) | HTML / TXT / PDF | 496 个文件 · 与另一类目同一份数据（复用，不重复计入合计） · 完成度 100.0% · 已解析 603 篇（含全文 0） |
-| 先知社区 (XianZhi)（knowledge only） | xz.aliyun.com | 进行中 (278.9M) | HTML | 7,818 个文件 · 完成度 98.4% · 已解析 7,436 篇（含全文 6,418） |
+| 先知社区 (XianZhi)（knowledge only） | xz.aliyun.com | 完成（部分受限） (280.1M) | HTML | 7,844 个文件 · 完成度 98.8% · 已解析 7,489 篇（含全文 6,470） · 未获取：阿里云 WAF 的 JS 挑战与滑块验证（acw_sc__v2）；平台要求转载授 |
 | 安全客 (AnQuanKe)（knowledge only） | www.anquanke.com | 完成（部分受限） (2.13G) | HTML / JSON / XML | 24,260 个文件 · 完成度 98.4% · 已解析 24,173 篇（含全文 24,000） |
 | Orange Tsai Blog（knowledge only） | blog.orange.tw | 完成 (2.06M) | HTML / XML | 147 个文件 · 完成度 100.0% · 已解析 103 篇（含全文 103） |
 | Phrack Magazine（knowledge only） | phrack.org | 完成 (95.8M) | HTML / LaTeX 源码包 | 1,121 个文件 · 完成度 100.0% · 已解析 1,046 篇（含全文 1,046） |
@@ -629,7 +629,7 @@
 
 ### ⑦ 学术安全数据集：数据集本身（dataset）
 
-2026-10-19 新任务：除论文（Knowledge）外，本类数据集本身也由本组抓取，统计单列、不计入上方 Knowledge 合计。规则：不设大小上限；可执行文件与样本不落盘（按扩展名、路径、文件头识别，只登记）；压缩包内的可执行成员去掉后重新打包，加密或无法检查的压缩包整包跳过。数据存放于 Data_Root/dataset/，每个项目的 _records/ 记录来源、校验和、许可与跳过原因。
+2026-10-19 新任务：除论文（Knowledge）外，本类数据集本身也由本组抓取，统计单列、不计入上方 Knowledge 合计。规则：不设大小上限；可执行文件与样本不落盘（按扩展名、路径、文件头识别，只登记）；压缩包内的可执行成员去掉后重新打包，加密或无法检查的压缩包整包跳过。数据存放于 T7B 固态盘（D 盘）的 Data_Root/dataset/，每个项目的 _records/ 记录来源、校验和、许可与跳过原因。
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
@@ -641,7 +641,7 @@
 | VulEval（dataset） | — | 不适用 | — | 论文未给出数据集下载地址，Hugging Face 与 GitHub 均未找到 |
 | CodeSecEval（dataset） | https://huggingface.co/datasets/JasonWang1/CodeSecEval | 完成 (1.20M) | JSONL / MD / IPYNB | 4 个文件 · 上游共 4 个文件、1.20M |
 | MalBench（dataset） | https://github.com/youkergav/Malbench | 完成 (1.27M) | PY / HTML / YML | 44 个文件 · 上游共 44 个文件、1.27M · 许可：见仓库 LICENSE · MalBench 是杀毒软件测试工具（README 声明不含任何恶意样本，样本由使用者自备）；保存仓库快照（代码与文档） |
-| CyberGym（dataset） | https://huggingface.co/datasets/sunblaze-ucb/cybergym | 进行中 (46.1G) | TXT / TAR.GZ / DIFF | 6,949 个文件 · 上游共 7,538 个文件、220.2G · 去掉可执行成员后重新打包 1,280 个 · 约 220 GB：1507 个任务，每个含漏洞说明、补丁与修复前后的源码包 |
+| CyberGym（dataset） | https://huggingface.co/datasets/sunblaze-ucb/cybergym | 进行中 (51.5G) | TXT / TAR.GZ / DIFF | 7,029 个文件 · 上游共 7,538 个文件、220.2G · 去掉可执行成员后重新打包 1,356 个 · 约 220 GB：1507 个任务，每个含漏洞说明、补丁与修复前后的源码包 |
 | TrajCoder（dataset） | — | 不适用 | — | TraceCoder 为调试框架，未发布数据集 |
 | SafeToolBench（dataset） | https://github.com/BITHLP/SafeToolBench | 完成 (9.07M) | PY / JSON / MD | 38 个文件 · 上游共 38 个文件、9.07M · 许可：见仓库 LICENSE |
 | RedTeamBench（dataset） | https://huggingface.co/datasets/Fujitsu/agentic-rag-redteam-bench | 受限未获取 | — | 0 个文件 · 上游共 4,549 个文件、372.7M · 受限 4,544 个（需在 Hugging Face 页面同意条款） · 失败 5 个 · 许可：cc-by-4.0 · 受限数据集（gated=auto）：需账号在页面上同意条款后才能下载；gated=auto |
@@ -669,6 +669,6 @@
 | 谷歌 P0 实验室（knowledge only） | googleprojectzero.blogspot.com | 完成 (96.2M) | HTML / JSON | 402 个文件 · 完成度 100.0% · 已解析 262 篇（含全文 262） |
 | 微软安全响应中心（knowledge only） | msrc.microsoft.com/blog | 完成（部分受限） (249.2M) | HTML / JSON | 2,811 个文件 · 完成度 100.0% · 已解析 2,783 篇（含全文 2,783） |
 | 谷歌旗下顶级智库（knowledge only） | cloud.google.com/blog/topics/threat-intelligence | 完成 (498.1M) | XML / HTML / PDF | 1,880 个文件 · 完成度 100.0% · 已解析 811 篇（含全文 811） |
-| 美国网络安全与基础设施安全局（knowledge only） | www.cisa.gov/news-events/cybersecurity-advisories | 进行中 (638.2M) | PDF / HTML / XML | 1,026 个文件 · 完成度 98.7% · 已解析 523 篇（含全文 522） |
+| 美国网络安全与基础设施安全局（knowledge only） | www.cisa.gov/news-events/cybersecurity-advisories | 进行中 (638.2M) | PDF / HTML / XML | 1,026 个文件 · 完成度 98.7% · 已解析 533 篇（含全文 532） |
 | 趋势科技 / 最大的独立漏洞悬赏计划（knowledge only） | www.zerodayinitiative.com/blog | 完成（部分受限） (71.9M) | HTML / XML | 557 个文件 · 完成度 98.6% · 已解析 334 篇（含全文 334） |
 
