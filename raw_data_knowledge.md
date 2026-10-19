@@ -1,8 +1,8 @@
 # 本组抓取统计（Knowledge 域）
 
-更新时间：2026-10-18 20:38（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
+更新时间：2026-10-18 21:42（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
 
-**合计：68 个数据源，223,244 个文件，198.8G；已解析 190,856 篇文档（含全文 176,137）**
+**合计：68 个数据源，223,656 个文件，199.0G；已解析 191,509 篇文档（含全文 176,913）**
 
 ## ① 通用漏洞数据库 共 1 源（已下载：16.5M）
 
@@ -41,16 +41,16 @@
 | Google API Design / Slsa（knowledge only） | slsa.dev | 完成 (4.83M) | Git 快照（文档文件） | 175 个文件 · 完成度 100.0% · 已解析 107 篇（含全文 107） |
 | CIS Benchmarks（knowledge only） | www.cisecurity.org/cis-benchmarks | 完成（部分受限） (182.8M) | PDF / HTML | 136 个文件 · 完成度 99.3% · 已解析 136 篇（含全文 0） · 未获取：需注册并登录 CIS WorkBench 账号 |
 
-## ⑤ CTF与攻防社区 共 15 源（已下载：7.67G）
+## ⑤ CTF与攻防社区 共 15 源（已下载：7.68G）
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
-| CTFtime（knowledge only） | ctftime.org | 进行中 (1.48G) | HTML / Markdown / JSON | 46,263 个文件 · 完成度 91.0% · 已解析 33,957 篇（含全文 28,746） |
+| CTFtime（knowledge only） | ctftime.org | 进行中 (1.49G) | HTML / Markdown / JSON | 46,540 个文件 · 完成度 91.0% · 已解析 34,177 篇（含全文 28,940） |
 | Hack The Box (HTB)（knowledge only） | www.hackthebox.com | 完成（部分受限） (378.6M) | HTML / Git 快照（文档文件） / XML | 2,287 个文件 · 完成度 99.8% · 已解析 1,784 篇（含全文 1,779） · 未获取：需 VIP 会员 |
 | PortSwigger Web Security Academy（knowledge only） | portswigger.net/web-security | 完成 (63.9M) | HTML / XML / PDF | 434 个文件 · 完成度 100.0% · 已解析 433 篇（含全文 433） |
 | Exploit Database (Exploit-DB)（knowledge only） | www.exploit-db.com | 完成* (2.16G) | Git 快照（文档文件） | 1,638 个文件 · 与另一类目同一份数据（复用，不重复计入合计） · 完成度 100.0% · 已解析 1,635 篇（含全文 0） |
 | Packet Storm（knowledge only） | packetstormsecurity.com | 完成* (8.61M) | HTML / TXT / PDF | 496 个文件 · 与另一类目同一份数据（复用，不重复计入合计） · 完成度 100.0% · 已解析 603 篇（含全文 0） |
-| 先知社区 (XianZhi)（knowledge only） | xz.aliyun.com | 进行中 (227.7M) | HTML | 6,474 个文件 · 完成度 80.3% · 已解析 5,732 篇（含全文 4,735） |
+| 先知社区 (XianZhi)（knowledge only） | xz.aliyun.com | 进行中 (229.9M) | HTML | 6,526 个文件 · 完成度 81.0% · 已解析 6,161 篇（含全文 5,153） |
 | 安全客 (AnQuanKe)（knowledge only） | www.anquanke.com | 完成（部分受限） (2.13G) | HTML / JSON / XML | 24,260 个文件 · 完成度 98.4% · 已解析 24,173 篇（含全文 24,000） |
 | Orange Tsai Blog（knowledge only） | blog.orange.tw | 完成 (2.06M) | HTML / XML | 147 个文件 · 完成度 100.0% · 已解析 103 篇（含全文 103） |
 | Phrack Magazine（knowledge only） | phrack.org | 完成 (95.8M) | HTML / LaTeX 源码包 | 1,121 个文件 · 完成度 100.0% · 已解析 1,046 篇（含全文 1,046） |
@@ -471,10 +471,10 @@
 | 371 | AttackQA | AttackQA: Development and Adoption of a Dataset for Assisting Cybersecurity Operations using Fine-tuned and Open-Source LLMs（2024-11-01） | https://arxiv.org/pdf/2411.01073 | https://huggingface.co/datasets/sambanovasystems/attackqa | 公开 | 面向 LLM / 智能体 |
 | 372 | REFuSE-Bench | Is Function Similarity Over-Engineered? Building a Benchmark（2024-10-30） | https://arxiv.org/pdf/2410.22677 | https://github.com/FutureComputing4AI/Reverse-Engineering-Function-Search | 公开 | — |
 | 373 | SafeBench | SafeBench: A Safety Evaluation Framework for Multimodal Large Language Models（2024-10-24） | https://arxiv.org/pdf/2410.18927 | https://huggingface.co/datasets/Zonghao2025/safebench | 公开 | 面向 LLM / 智能体 · 另见：https://github.com/safebench-mm/safebench；https://safebench-mm.github.io/ |
-| 374 |  | Advancing Network Security: A Comprehensive Testbed and Dataset for Machine Learning-Based Intrusion Detection（2024-10-23） | https://arxiv.org/pdf/2410.18332 | https://drive.google.com/drive/folders/11DDvarZg9YOvzPfK2e78CLP7S_a9bCXm | 公开 | — |
-| 375 |  | Towards Automated Penetration Testing: Introducing LLM Benchmark, Analysis, and Improvements（2024-10-22） | https://arxiv.org/pdf/2410.17141 | https://github.com/isamu-isozaki/AI-Pentest-Benchmark | 公开 | 面向 LLM / 智能体 |
+| 374 | 未命名 | Advancing Network Security: A Comprehensive Testbed and Dataset for Machine Learning-Based Intrusion Detection（2024-10-23） | https://arxiv.org/pdf/2410.18332 | https://drive.google.com/drive/folders/11DDvarZg9YOvzPfK2e78CLP7S_a9bCXm | 公开 | — |
+| 375 | 未命名 | Towards Automated Penetration Testing: Introducing LLM Benchmark, Analysis, and Improvements（2024-10-22） | https://arxiv.org/pdf/2410.17141 | https://github.com/isamu-isozaki/AI-Pentest-Benchmark | 公开 | 面向 LLM / 智能体 |
 | 376 | Seeker's Dilemma Hardware Trojan Benchmarks | Hiding in Plain Sight: Reframing Hardware Trojan Benchmarking as a Hide&Seek Modification（2024-10-21） | https://arxiv.org/pdf/2410.15550 | https://github.com/NMSU-PEARL/Seeker-s-Dilemma-Hardware-Trojan-Benchmarks | 公开 | — |
-| 377 |  | A dataset for cyber threat intelligence modeling of connected autonomous vehicles（2024-10-18） | https://arxiv.org/pdf/2410.14600 | https://github.com/AutoCS-wyh/Automotive-cyber-threat-intelligence-corpus | 公开 | — |
+| 377 | 未命名 | A dataset for cyber threat intelligence modeling of connected autonomous vehicles（2024-10-18） | https://arxiv.org/pdf/2410.14600 | https://github.com/AutoCS-wyh/Automotive-cyber-threat-intelligence-corpus | 公开 | — |
 | 378 | SeCodePLT | SeCodePLT: A Unified Platform for Evaluating the Security of Code GenAI（2024-10-14） | https://arxiv.org/pdf/2410.11096 | https://huggingface.co/datasets/secmlr/SecCodePLT | 公开 | 面向 LLM / 智能体 · 另见：https://github.com/ucsb-mlsec/SecCodePLT；https://huggingface.co/datasets/Virtue-AI-HUB/SecCodePLT |
 | 379 | 3CB | Catastrophic Cyber Capabilities Benchmark (3CB): Robustly Evaluating LLM Agent Cyber Offense Capabilities（2024-10-10） | https://arxiv.org/pdf/2410.09114 | https://github.com/apartresearch/3cb | 公开 | 面向 LLM / 智能体 |
 | 380 | HumanAdvSuspiciousness | Graded Suspiciousness of Adversarial Texts to Human（2024-10-06） | https://arxiv.org/pdf/2410.04377 | https://github.com/SJabin/HumanAdvSuspiciousness | 公开 | — |
@@ -499,7 +499,7 @@
 | 399 | VulZoo | VulZoo: A Comprehensive Vulnerability Intelligence Dataset（2024-06-24） | https://arxiv.org/pdf/2406.16347 | https://github.com/NUS-Curiosity/VulZoo | 公开 | — |
 | 400 | MOSSBench | MOSSBench: Is Your Multimodal Language Model Oversensitive to Safe Queries?（2024-06-22） | https://arxiv.org/pdf/2406.17806 | https://huggingface.co/datasets/AIcell/MOSSBench | 公开 | 面向 LLM / 智能体 · 另见：https://turningpoint-ai.github.io/MOSSBench/ |
 | 401 | MegaVul | MegaVul: A C/C++ Vulnerability Dataset with Comprehensive Code Representation（2024-06-18） | https://arxiv.org/pdf/2406.12415 | https://github.com/Icyrockton/MegaVul | 公开 | — |
-| 402 |  | Dataset and Lessons Learned from the 2024 SaTML LLM Capture-the-Flag Competition（2024-06-12） | https://arxiv.org/pdf/2406.07954 | https://huggingface.co/datasets/ethz-spylab/ctf-satml24 | 公开 | 面向 LLM / 智能体 · 另见：https://github.com/ethz-spylab/ctf-satml24-data-analysis |
+| 402 | 未命名 | Dataset and Lessons Learned from the 2024 SaTML LLM Capture-the-Flag Competition（2024-06-12） | https://arxiv.org/pdf/2406.07954 | https://huggingface.co/datasets/ethz-spylab/ctf-satml24 | 公开 | 面向 LLM / 智能体 · 另见：https://github.com/ethz-spylab/ctf-satml24-data-analysis |
 | 403 | CTIBench | CTIBench: A Benchmark for Evaluating LLMs in Cyber Threat Intelligence（2024-06-11） | https://arxiv.org/pdf/2406.07599 | https://huggingface.co/datasets/AI4Sec/cti-bench | 公开 | 面向 LLM / 智能体 · 另见：https://github.com/xashru/cti-bench |
 | 404 | VulDetectBench | VulDetectBench: Evaluating the Deep Capability of Vulnerability Detection with Large Language Models（2024-06-11） | https://arxiv.org/pdf/2406.07595 | https://github.com/Sweetaroo/VulDetectBench | 公开 | 面向 LLM / 智能体 |
 | 405 | MLLMGuard | MLLMGuard: A Multi-dimensional Safety Evaluation Suite for Multimodal Large Language Models（2024-06-11） | https://arxiv.org/pdf/2406.07594 | https://huggingface.co/datasets/Carol0110/MLLMGuard | 公开 | 面向 LLM / 智能体 · 另见：https://github.com/Carol-gutianle/MLLMGuard |
@@ -509,7 +509,7 @@
 | 409 | Assemblage | Assemblage: Automatic Binary Dataset Construction for Machine Learning（2024-05-07） | https://arxiv.org/pdf/2405.03991 | https://huggingface.co/datasets/changliu8541/Assemblage_PE | 公开 | 另见：https://assemblage-dataset.net/；https://huggingface.co/datasets/changliu8541/Assemblage_vcpkgDLL |
 | 410 | HELIX | Synthetic Datasets for Program Similarity Research（2024-05-06） | https://arxiv.org/pdf/2405.03478 | https://github.com/helix-datasets/helix | 公开 | 链接归属需复核 · 另见：https://github.com/helix-datasets/blind-helix |
 | 411 | SEvenLLM | SEvenLLM: Benchmarking, Eliciting, and Enhancing Abilities of Large Language Models in Cyber Threat Intelligence（2024-05-06） | https://arxiv.org/pdf/2405.03446 | https://huggingface.co/datasets/Multilingual-Multimodal-NLP/SEVENLLM-Dataset | 公开 | 面向 LLM / 智能体 · 另见：https://github.com/CSJianYang/SEevenLLM |
-| 412 |  | Got Root? A Linux Priv-Esc Benchmark（2024-05-03） | https://arxiv.org/pdf/2405.02106 | https://github.com/ipa-lab/benchmark-privesc-linux | 公开 | — |
+| 412 | 未命名 | Got Root? A Linux Priv-Esc Benchmark（2024-05-03） | https://arxiv.org/pdf/2405.02106 | https://github.com/ipa-lab/benchmark-privesc-linux | 公开 | — |
 | 413 | RFP | An RFP dataset for Real, Fake, and Partially fake audio detection（2024-04-26） | https://arxiv.org/pdf/2404.17721 | https://zenodo.org/records/10202142 | 公开 | — |
 | 414 | CyberSecEval 2 | CyberSecEval 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models（2024-04-19） | https://arxiv.org/pdf/2404.13161 | https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks | 公开 | 面向 LLM / 智能体 |
 | 415 | AnnoCTR | AnnoCTR: A Dataset for Detecting and Linking Entities, Tactics, and Techniques in Cyber Threat Reports（2024-04-11） | https://arxiv.org/pdf/2404.07765 | https://github.com/boschresearch/anno-ctr-lrec-coling-2024 | 公开 | — |
@@ -561,19 +561,19 @@
 | 461 | SecretBench | SecretBench: A Dataset of Software Secrets（2023-03-12） | https://arxiv.org/pdf/2303.06729 | https://github.com/setu1421/SecretBench | 申请获取 | 另见：https://doi.org/10.5281/zenodo.7555981 |
 | 462 | Multi-Stage Malware Behavioural Reports | Behavioural Reports of Multi-Stage Malware（2023-01-30） | https://arxiv.org/pdf/2301.12800 | https://github.com/marcusCarpenter97/Malware-data | 未明说 | 链接归属需复核 |
 | 463 | SPEC5G | SPEC5G: A Dataset for 5G Cellular Network Protocol Analysis（2023-01-22） | https://arxiv.org/pdf/2301.09201 | https://github.com/Imtiazkarimik23/SPEC5G | 公开 | — |
-| 464 |  | A Dataset of Coordinated Cryptocurrency-Related Social Media Campaigns（2023-01-16） | https://arxiv.org/pdf/2301.06601 | https://zenodo.org/record/7539178 | 公开 | — |
+| 464 | 未命名 | A Dataset of Coordinated Cryptocurrency-Related Social Media Campaigns（2023-01-16） | https://arxiv.org/pdf/2301.06601 | https://zenodo.org/record/7539178 | 公开 | — |
 | 465 | PE Malware Ontology | Knowledge-Based Dataset for Training PE Malware Detection Models（2022-12-31） | https://arxiv.org/pdf/2301.00153 | https://github.com/orbis-security/pe-malware-ontology | 公开 | — |
 | 466 | REAP | REAP: A Large-Scale Realistic Adversarial Patch Benchmark（2022-12-12） | https://arxiv.org/pdf/2212.05680 | https://github.com/wagner-group/reap-benchmark | 公开 | — |
 | 467 | CA4P-483 | A Fine-grained Chinese Software Privacy Policy Dataset for Sequence Labeling and Regulation Compliant Identification（2022-12-04） | https://arxiv.org/pdf/2212.04357 | https://github.com/zacharykzhao/CA4P-483 | 公开 | — |
-| 468 |  | Dark patterns in e-commerce: a dataset and its baseline evaluations（2022-11-12） | https://arxiv.org/pdf/2211.06543 | https://github.com/yamanalab/ec-darkpattern | 公开 | — |
+| 468 | 未命名 | Dark patterns in e-commerce: a dataset and its baseline evaluations（2022-11-12） | https://arxiv.org/pdf/2211.06543 | https://github.com/yamanalab/ec-darkpattern | 公开 | — |
 | 469 | PE-Malware-Dataset1 | Multi-feature Dataset for Windows PE Malware Classification（2022-10-28） | https://arxiv.org/pdf/2210.16285 | https://github.com/DA-Proj/PE-Malware-Dataset1 | 公开 | — |
 | 470 | Avast-CTU Public CAPE Dataset | Avast-CTU Public CAPE Dataset（2022-09-06） | https://arxiv.org/pdf/2209.03188 | https://github.com/avast/avast-ctu-cape-dataset | 公开 | — |
 | 471 | FDB | Fraud Dataset Benchmark and Applications（2022-08-30） | https://arxiv.org/pdf/2208.14417 | https://github.com/amazon-science/fraud-dataset-benchmark | 公开 | 另见：https://github.com/amazon-research/fraud-dataset-benchmark |
-| 472 |  | Continuous User Authentication Using Machine Learning and Multi-Finger Mobile Touch Dynamics with a Novel Dataset（2022-07-27） | https://arxiv.org/pdf/2207.13648 | https://github.com/zderidder/MC-Snake-Results | 公开 | — |
+| 472 | 未命名 | Continuous User Authentication Using Machine Learning and Multi-Finger Mobile Touch Dynamics with a Novel Dataset（2022-07-27） | https://arxiv.org/pdf/2207.13648 | https://github.com/zderidder/MC-Snake-Results | 公开 | — |
 | 473 | PowerDuck | PowerDuck: A GOOSE Data Set of Cyberattacks in Substations（2022-07-11） | https://arxiv.org/pdf/2207.04716 | https://doi.org/10.5281/zenodo.6724225 | 公开 | — |
 | 474 | CoAP-DoS | CoAP-DoS: An IoT Network Intrusion Dataset（2022-06-29） | https://arxiv.org/pdf/2206.14341 | https://www.kaggle.com/jaredalanmathews/coapddos（原地址失效）<br>存档：https://web.archive.org/web/20220708133959/https://www.kaggle.com/jaredalanmathews/coapddos | 公开 | — |
 | 475 | BackdoorBench | BackdoorBench: A Comprehensive Benchmark of Backdoor Learning（2022-06-25） | https://arxiv.org/pdf/2206.12654 | https://github.com/SCLBD/BackdoorBench | 公开 | 另见：https://backdoorbench.github.io |
-| 476 |  | A Dataset on Malicious Paper Bidding in Peer Review（2022-06-24） | https://arxiv.org/pdf/2207.02303 | https://github.com/sjecmen/malicious_bidding_dataset | 公开 | — |
+| 476 | 未命名 | A Dataset on Malicious Paper Bidding in Peer Review（2022-06-24） | https://arxiv.org/pdf/2207.02303 | https://github.com/sjecmen/malicious_bidding_dataset | 公开 | — |
 | 477 | Natural Backdoor Datasets | Natural Backdoor Datasets（2022-06-21） | https://arxiv.org/pdf/2206.10673 | https://github.com/uchicago-sandlab/naturalbackdoors | 公开 | 链接归属需复核 |
 | 478 | OpenBackdoor | A Unified Evaluation of Textual Backdoor Learning: Frameworks and Benchmarks（2022-06-17） | https://arxiv.org/pdf/2206.08514 | https://github.com/thunlp/OpenBackdoor | 公开 | — |
 | 479 | Blades | Blades: A Unified Benchmark Suite for Byzantine Attacks and Defenses in Federated Learning（2022-06-10） | https://arxiv.org/pdf/2206.05359 | https://github.com/lishenghui/blades | 公开 | — |
@@ -605,7 +605,7 @@
 | 505 | RobustBench | RobustBench: a standardized adversarial robustness benchmark（2020-10-19） | https://arxiv.org/pdf/2010.09670 | https://github.com/RobustBench/robustbench | 公开 | 另见：https://robustbench.github.io/ |
 | 506 | Magma | Magma: A Ground-Truth Fuzzing Benchmark（2020-09-02） | https://arxiv.org/pdf/2009.01120 | https://hexhive.epfl.ch/magma/ | 公开 | — |
 | 507 | MQTT-IoT-IDS2020 | Machine Learning Based IoT Intrusion Detection System: An MQTT Case Study (MQTT-IoT-IDS2020 Dataset)（2020-06-27） | https://arxiv.org/pdf/2006.15340 | https://ieee-dataport.org/open-access/mqtt-internet-things-intrusion-detection-dataset | 公开 | — |
-| 508 |  | Just How Toxic is Data Poisoning? A Unified Benchmark for Backdoor and Data Poisoning Attacks（2020-06-22） | https://arxiv.org/pdf/2006.12557 | https://github.com/aks2203/poisoning-benchmark | 公开 | — |
+| 508 | 未命名 | Just How Toxic is Data Poisoning? A Unified Benchmark for Backdoor and Data Poisoning Attacks（2020-06-22） | https://arxiv.org/pdf/2006.12557 | https://github.com/aks2203/poisoning-benchmark | 公开 | — |
 | 509 | Worm infection benchmark datasets | Towards Generating Benchmark Datasets for Worm Infection Studies（2020-06-09） | https://arxiv.org/pdf/2006.05167 | https://github.com/Sara-Asgari/Datasets | 承诺公开（尚未发布） | — |
 | 510 | Backstabber's Knife Collection | Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks（2020-05-19） | https://arxiv.org/pdf/2005.09535 | https://dasfreak.github.io/Backstabbers-Knife-Collection | 申请获取 | — |
 | 511 | NetML | NetML: A Challenge for Network Traffic Analytics（2020-04-25） | https://arxiv.org/pdf/2004.13006 | https://github.com/ACANETS/NetML-Competition2020 | 公开 | — |
@@ -629,7 +629,7 @@
 
 本组未抓取该类（不属于 Knowledge 域）。
 
-## ⑨ 安全会议机构报告 共 14 源（已下载：189.9G）
+## ⑨ 安全会议机构报告 共 14 源（已下载：190.0G）
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
@@ -638,7 +638,7 @@
 | CCS（knowledge only） | www.sigsac.org/ccs | 进行中 (411.1M) | HTML / PDF / DOCX | 615 个文件 · 完成度 95.2% · 已解析 479 篇（含全文 476） |
 | NDSS（knowledge only） | www.ndss-symposium.org | 完成（部分受限） (7.84G) | PDF / HTML / TXT | 7,353 个文件 · 完成度 99.9% · 已解析 4,902 篇（含全文 4,699） |
 | arXiv (cs.CR)（knowledge only） | arxiv.org/list/cs.CR/recent | 完成（部分受限） (100.8G) | PDF / LaTeX 源码包 / XML | 53,758 个文件 · 完成度 99.3% · 每篇一种全文：有 LaTeX 取源码包，否则 PDF · 已解析 53,358 篇（含全文 52,945） · 未获取：交给专业团队处理，原因为LaTeX抓取限速（60秒/个）：export.arxi |
-| Cryptology ePrint Archive（knowledge only） | eprint.iacr.org | 进行中 (13.5G) | PDF / XML | 21,328 个文件 · 论文记录来自 OAI-PMH 元数据；全文为开放获取副本 · 已解析 27,732 篇（含全文 21,086） |
+| Cryptology ePrint Archive（knowledge only） | eprint.iacr.org | 进行中 (13.7G) | PDF / XML | 21,411 个文件 · 论文记录来自 OAI-PMH 元数据；全文为开放获取副本 · 已解析 27,736 篇（含全文 21,250） |
 | Black Hat Briefings（knowledge only） | www.blackhat.com/html/archives.html | 完成（部分受限） (17.3G) | PDF / PPT / HTML | 4,466 个文件 · 完成度 96.1% · 已解析 4,459 篇（含全文 4,426） · 未获取：Cloudflare “Attention Required” 拦截（403）， |
 | DEF CON（knowledge only） | defcon.org/html/defcon-archive | 完成（部分受限） (32.3G) | TXT / SRT 字幕 / PDF | 21,915 个文件 · 完成度 99.0% · 已解析 8,901 篇（含全文 8,686） |
 | CanSecWest / Pwn2Own（knowledge only） | cansecwest.com | 完成（部分受限） (256.5M) | HTML / PDF | 334 个文件 · 完成度 99.7% · 已解析 334 篇（含全文 334） · 未获取：SlideShare 需登录才能下载原文件 |
