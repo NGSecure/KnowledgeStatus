@@ -1,8 +1,8 @@
 # 本组抓取统计（Knowledge 域）
 
-更新时间：2026-10-20 19:52（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
+更新时间：2026-10-20 20:52（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
 
-**合计：68 个数据源，239,411 个文件，204.4G；已解析 198,791 篇文档（含全文 188,711）**
+**合计：68 个数据源，239,411 个文件，204.4G；已解析 198,824 篇文档（含全文 188,755）**
 
 **另：学术安全数据集本身（dataset，不计入上面的 Knowledge 合计）：11 个数据集，143,050 个文件，1.68T**
 
@@ -47,7 +47,7 @@
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
-| CTFtime（knowledge only） | ctftime.org | 进行中 (1.73G) | HTML / Markdown / JSON | 55,593 个文件 · 完成度 90.8% · 已解析 40,034 篇（含全文 33,974） |
+| CTFtime（knowledge only） | ctftime.org | 进行中 (1.73G) | HTML / Markdown / JSON | 55,593 个文件 · 完成度 90.8% · 已解析 40,067 篇（含全文 34,018） |
 | Hack The Box (HTB)（knowledge only） | www.hackthebox.com | 完成（部分受限） (378.6M) | HTML / Git 快照（文档文件） / XML | 2,287 个文件 · 完成度 99.8% · 已解析 1,784 篇（含全文 1,779） · 未获取：需 VIP 会员 |
 | PortSwigger Web Security Academy（knowledge only） | portswigger.net/web-security | 完成 (63.9M) | HTML / XML / PDF | 434 个文件 · 完成度 100.0% · 已解析 433 篇（含全文 433） |
 | Exploit Database (Exploit-DB)（knowledge only） | www.exploit-db.com | 完成* (2.16G) | Git 快照（文档文件） | 1,638 个文件 · 与另一类目同一份数据（复用，不重复计入合计） · 完成度 100.0% · 已解析 1,635 篇（含全文 0） |
