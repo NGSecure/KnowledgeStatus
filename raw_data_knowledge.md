@@ -1,6 +1,6 @@
 # 本组抓取统计（Knowledge 域）
 
-更新时间：2026-10-21 04:57（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
+更新时间：2026-10-21 05:55（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
 
 **合计：68 个数据源，239,798 个文件，122.8G；已解析 198,828 篇文档（含全文 188,759）**
 
@@ -663,7 +663,7 @@
 | NDSS（knowledge only） | www.ndss-symposium.org | 完成（部分受限） (7.84G) | PDF / HTML / TXT | 7,357 个文件 · 完成度 99.9% · 已解析 4,906 篇（含全文 4,703） |
 | arXiv (cs.CR)（knowledge only） | arxiv.org/list/cs.CR/recent | 进行中（LaTeX 源码按 arXiv 限速下载） (19.0G) | LaTeX 源码包 / PDF / XML | 54,047 个文件 · 完成度 99.8% · 每篇一种全文：有 LaTeX 取源码包，否则 PDF · 已解析 53,358 篇（含全文 52,947） · 未获取：export.arxiv.org 对源码下载严格限流（10-14/15 实测：间 |
 | Cryptology ePrint Archive（knowledge only） | eprint.iacr.org | 完成（部分受限） (18.8G) | PDF / XML | 26,763 个文件 · 论文记录来自 OAI-PMH 元数据；全文为开放获取副本 · 已解析 27,822 篇（含全文 26,684） · 未获取：Cloudflare 托管挑战（cf-mitigated: challenge） |
-| Black Hat Briefings（knowledge only） | www.blackhat.com/html/archives.html | 进行中 (17.3G) | PDF / PPT / HTML | 4,467 个文件 · 完成度 96.2% · 已解析 4,459 篇（含全文 4,426） |
+| Black Hat Briefings（knowledge only） | www.blackhat.com/html/archives.html | 完成（部分受限） (17.3G) | PDF / PPT / HTML | 4,467 个文件 · 完成度 96.2% · 已解析 4,459 篇（含全文 4,426） · 未获取：Cloudflare “Attention Required” 拦截（403）， |
 | DEF CON（knowledge only） | defcon.org/html/defcon-archive | 完成（部分受限） (32.3G) | TXT / SRT 字幕 / PDF | 21,915 个文件 · 完成度 99.0% · 已解析 8,901 篇（含全文 8,686） |
 | CanSecWest / Pwn2Own（knowledge only） | cansecwest.com | 完成（部分受限） (256.5M) | HTML / PDF | 334 个文件 · 完成度 99.7% · 已解析 334 篇（含全文 334） · 未获取：SlideShare 需登录才能下载原文件 |
 | 谷歌 P0 实验室（knowledge only） | googleprojectzero.blogspot.com | 完成 (96.2M) | HTML / JSON | 402 个文件 · 完成度 100.0% · 已解析 262 篇（含全文 262） |
