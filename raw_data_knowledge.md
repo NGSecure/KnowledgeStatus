@@ -1,8 +1,8 @@
 # 本组抓取统计（Knowledge 域）
 
-更新时间：2026-10-22 09:12（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
+更新时间：2026-10-22 16:26（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码
 
-**合计：68 个数据源，242,907 个文件，123.4G；已解析 201,534 篇文档（含全文 190,200）**
+**合计：68 个数据源，242,950 个文件，123.4G；已解析 201,577 篇文档（含全文 190,243）**
 
 **另：学术安全数据集本身（dataset，不计入上面的 Knowledge 合计）：11 个数据集，143,050 个文件，1.68T**
 
@@ -659,7 +659,7 @@
 |---|---|---|---|---|
 | S&P (Oakland)（knowledge only） | www.ieee-security.org | 完成（部分受限） (2.48G) | PDF / HTML / PPTX | 2,038 个文件 · 完成度 97.8% · 已解析 1,985 篇（含全文 1,983） · 未获取：付费墙；Xplore 条款禁止系统性下载；会后一年内在付费墙后。开放版本需逐篇经 |
 | USENIX Security（knowledge only） | www.usenix.org/conferences/by-theme/Security | 完成（部分受限） (13.8G) | PDF / HTML / PS | 11,773 个文件 · 完成度 96.6% · 已解析 4,626 篇（含全文 4,561） · 未获取：403 拒绝访问 |
-| CCS（knowledge only） | www.sigsac.org/ccs | 部分完成 (519.3M) | HTML / PDF / DOCX | 647 个文件 · 完成度 20.8% · 已解析 511 篇（含全文 508） · 未获取：对非浏览器访问返回 403（机器人防护/Cloudflare） |
+| CCS（knowledge only） | www.sigsac.org/ccs | 进行中（本机逐篇下载） (580.4M) | HTML / PDF / DOCX | 690 个文件 · 完成度 22.2% · 已解析 554 篇（含全文 551） · 另有 2,391 篇待本机脚本从 Internet Archive 存档下载 · 未获取：对非浏览器访问返回 403（机器人防护/Cloudflare） |
 | NDSS（knowledge only） | www.ndss-symposium.org | 进行中 (7.84G) | PDF / HTML / TXT | 7,363 个文件 · 完成度 99.9% · 已解析 4,912 篇（含全文 4,709） |
 | arXiv (cs.CR)（knowledge only） | arxiv.org/list/cs.CR/recent | 完成（部分受限） (19.0G) | LaTeX 源码包 / PDF / XML | 54,049 个文件 · 完成度 99.8% · 每篇一种全文：有 LaTeX 取源码包，否则 PDF · 已解析 53,358 篇（含全文 52,813） · 未获取：export.arxiv.org 对源码下载严格限流（10-14/15 实测：间 |
 | Cryptology ePrint Archive（knowledge only） | eprint.iacr.org | 进行中 (19.1G) | PDF / XML | 27,123 个文件 · 论文记录来自 OAI-PMH 元数据；全文为开放获取副本 · 已解析 27,822 篇（含全文 27,042） |
