@@ -1,19 +1,19 @@
 # 本组抓取统计（Knowledge 域）
 
-更新时间：2026-10-29 14:04（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；Knowledge 只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码；容量按 1024 进位（1T = 1024G ≈ 1.10 TB）
+更新时间：2026-10-29 14:14（多伦多时间）　｜　范围：只含本组登记并抓取的数据源；Knowledge 只保存文本类格式（HTML、PDF、JSON、XML、Markdown、字幕、LaTeX 源码包等），不含视频、图片、程序代码；容量按 1024 进位（1T = 1024G ≈ 1.10 TB）
 
-**合计：68 个数据源，246,885 个文件，128.7G；已解析 205,058 篇文档（含全文 193,515）**
+**合计：68 个数据源，246,637 个文件，128.2G；已解析 205,058 篇文档（含全文 193,513）**
 
 **另：学术安全数据集本身（dataset，见 ⑦，不计入上面的 Knowledge 合计）：11 个项目、450 个数据集，143,050 个文件，1.68T**
 
-**两项合计：389,935 个文件，1.80T**
+**两项合计：389,687 个文件，1.80T**
 
 **交付批次**（各批互不重复：路径与内容都相同、或内容已在前一批出现的文件不再放入）
 
 | 批次 | 生成日期 | 文件数 | 大小 | 内容 |
 |---|---|---|---|---|
 | 第 1 批（E:\delivery） | 2026-10-23 | 249,147 | 995.1G | Knowledge 原始数据 + 学术安全数据集本身 + 数据集地址 |
-| 第 2 批（E:\delivery2） | 2026-10-29 | 4,114 | 5.53G | Knowledge 新增 3,930、更新 183；数据集只记地址 |
+| 第 2 批（E:\delivery2） | 2026-10-29 | 3,867 | 5.04G | Knowledge 新增 3,683、更新 183；数据集只记地址 |
 
 ## ① 通用漏洞数据库 共 1 源（已下载：16.5M）
 
@@ -665,7 +665,7 @@
 
 本组未抓取该类（不属于 Knowledge 域）。
 
-## ⑨ 安全会议机构报告 共 14 源（已下载：119.4G）
+## ⑨ 安全会议机构报告 共 14 源（已下载：118.9G）
 
 | 数据源 | 链接 | 状态 | 格式 | 备注 |
 |---|---|---|---|---|
@@ -673,7 +673,7 @@
 | USENIX Security（knowledge only） | www.usenix.org/conferences/by-theme/Security | 完成（部分受限） (13.8G) | PDF / HTML / PS | 11,773 个文件 · 完成度 96.6% · 已解析 4,626 篇（含全文 4,561） · 未获取：403 拒绝访问 |
 | CCS（knowledge only） | www.sigsac.org/ccs | 进行中 (3.98G) | PDF / HTML / DOCX | 3,076 个文件 · 完成度 99.0% · 已解析 2,940 篇（含全文 2,936） |
 | NDSS（knowledge only） | www.ndss-symposium.org | 进行中 (7.84G) | PDF / HTML / TXT | 7,363 个文件 · 完成度 99.9% · 已解析 4,912 篇（含全文 4,709） |
-| arXiv (cs.CR)（knowledge only） | arxiv.org/list/cs.CR/recent | 完成（部分受限） (20.8G) | LaTeX 源码包 / PDF / XML | 55,098 个文件 · 完成度 99.8% · 每篇一种全文：有 LaTeX 取源码包，否则 PDF · 已解析 53,888 篇（含全文 53,344） · 未获取：export.arxiv.org 对源码下载严格限流（10-14/15 实测：间 |
+| arXiv (cs.CR)（knowledge only） | arxiv.org/list/cs.CR/recent | 完成（部分受限） (20.3G) | LaTeX 源码包 / PDF / XML | 54,850 个文件 · 完成度 99.8% · 每篇一种全文：有 LaTeX 取源码包，否则 PDF · 已解析 53,888 篇（含全文 53,342） · 未获取：export.arxiv.org 对源码下载严格限流（10-14/15 实测：间 |
 | Cryptology ePrint Archive（knowledge only） | eprint.iacr.org | 进行中 (19.1G) | PDF / XML | 27,124 个文件 · 论文记录来自 OAI-PMH 元数据；全文为开放获取副本 · 已解析 28,006 篇（含全文 27,044） |
 | Black Hat Briefings（knowledge only） | www.blackhat.com/html/archives.html | 完成（部分受限） (17.3G) | PDF / PPT / HTML | 4,467 个文件 · 完成度 96.2% · 已解析 4,460 篇（含全文 4,427） · 未获取：Cloudflare “Attention Required” 拦截（403）， |
 | DEF CON（knowledge only） | defcon.org/html/defcon-archive | 完成（部分受限） (32.3G) | TXT / SRT 字幕 / PDF | 21,915 个文件 · 完成度 99.0% · 已解析 8,901 篇（含全文 8,686） |
